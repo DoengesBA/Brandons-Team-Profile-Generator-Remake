@@ -1,5 +1,22 @@
 {
+  "directories": {
   "dependencies": {
     "inquirer": "^8.2.4"
+  }
+  {
+    "name": "Team Profile Generator",
+    "version": "1.0.0",
+    "description": "Team Profile Generator OOP Testing",
+    "main": "app.js",
+    
+      "lib": "lib",
+      "test": "test"
+    },
+    "scripts": {
+      "test": "jest --verbose test/*"
+    },
+    "devDependencies": {
+      "jest": "^24.8.0"
+    }
   }
 }
